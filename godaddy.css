@@ -1,0 +1,475 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 0px 61px;
+    height: 10vh;
+    width: 100%;
+    background-color:rgb(43,43,43);
+    display: flex;
+    
+}
+header>.left-col>img{
+    height: 40px;
+    width: 140px;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+header>.right-col{
+    margin-left: 500px;
+    justify-content: space-between;
+}
+header>.left-col>h3{
+color: white;
+margin-left: 12px;
+}
+header>.ind{
+    color: white;
+    margin-top: 35px;
+    font-size: 10px;
+    position: relative;
+    top: 6px;
+    right: 35px;
+    }
+header> div{
+    display: flex;
+    align-items: center;    
+
+}
+header>.left-col>svg{
+color: white;
+}
+header>.right-col>button{
+    font-size:11px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin: 0px 10px;
+
+}
+header>button{
+    color: white;
+    border: none;
+    padding: 5px 7px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+}
+header> div>i{
+    color: white;
+}
+
+header> div>button:hover{
+    cursor: pointer;
+   
+}
+
+
+#box1{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 61px;
+}
+#box1>.a{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+#box1>.b{
+    display: flex;
+    align-items: center;
+   
+}
+#box1>.b>.right-col{
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+#box1>.b>.right-col>span{
+    font-size: 13px;
+}
+#box1>.a>input{
+width: 1500px;
+height: 50px;
+background-color:#EBEBEB;
+border: 0;
+padding-left: 15px;
+
+ 
+}
+#box1>.a>button{
+    height: 50px;
+    width: 430px;
+    background-color: #00838c;
+    padding: 0px 0px 0px 1px;
+    border: none;
+    color: white;
+    margin-left: 0%;
+}
+header>button:hover{
+    cursor: pointer;
+    background-color: rgb(78, 77, 77);
+}
+header>.right-col>button:hover{
+    cursor: pointer;
+    background-color: rgb(78, 77, 77);
+}
+#box2{
+    display: flex;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    justify-content: space-around;
+    
+}
+#box2>.left-col{
+    height: 320px;
+    width: 70%;
+    background-color: aqua;
+    
+}
+#box2>.right-col{
+    height: 320px;
+    width: 25%;
+    background-color:rgb(253,233,219);
+    line-height: 50px;
+}
+#box2>.right-col>.col-1{
+    height: 250px;
+    width: 250px;
+   margin-top: 30px;
+   margin-left: 20px;
+}
+#box2>.right-col>.col-1>h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 41px;
+}
+#box2>.left-col>.col-1>button{
+    background-color: black;
+    color: white;
+    border: none;
+}
+#box2>.left-col>.col-1>button:hover{
+    cursor: pointer;
+    background-color: rgb(60, 59, 59);
+}
+#box2>.right-col>.col-1>a{
+    color: black;
+    text-decoration: none;
+}
+#box2>.right-col>.col-1>a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+#box2>.right-col>.col-1>button{
+    background-color: black;
+    color: aliceblue;
+    padding: 7px 7px 7px 7px;
+    border: none;
+    border-radius: 5px;
+}
+#box2>.right-col>.col-1>button:hover{
+    cursor: pointer;
+    background-color: rgb(55, 54, 54);
+}
+#box2>.right-col>.col-1>a:link{
+    color: black;
+    
+}
+#box2>.left-col>.col-1{
+    position: absolute;
+    top: 190px;
+    left: 88px;
+    font-size: 20px;
+    line-height: 40px;
+}
+#box2>.left-col>.col-1>p{
+    font-size: small;
+    
+}
+#box2>.left-col>.col-1>button{
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+}
+#box2>.left-col>.col-1>h6{
+    line-height: 15px;
+    font-size:xx-small;
+    margin-top: 18px;
+}
+#box3{
+    align-items: center;
+    margin: 70px 0px;
+   
+   text-align: center;
+    height: 90px;
+    width: 100%;
+}
+#box3>h1{
+    font-size:xxx-large;
+    line-height: 90px;
+}
+#box4{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#box4>.a{
+    height: 300px;
+    width: 40%;
+    
+}
+#box4>.aa{
+    background-image: url("./images/img2.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#box4>.ab{
+    background-image: url("./images/img3.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#box5{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#box5>.a{
+    height: 300px;
+    width: 40%;
+    
+}
+#box5>.aa>p>span{
+    font-size:xx-large;
+}
+#box5>.aa>button{
+    padding:  10px 30px 10px 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+#box5>.ab>p>span{
+    font-size:xx-large;
+}
+#box5>.ab>button{
+    padding:  10px 30px 10px 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+#box6{
+    display: flex;
+    background-repeat: no-repeat;
+}
+#box6>.aa>h6{
+    position: absolute;
+    top: 1300px;
+    left: 50px;
+}
+#box6>.ab{
+    top: 5px;
+    margin-top: 25px;
+    font-size: 20px;
+    
+
+}
+#box6>.ab>p{
+    font-size: small;
+    margin-bottom: 20px;
+    
+}
+#box6>.ab>button{
+    padding: 10px 35px 10px 35px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#box6>.ab>h1{
+    margin-top: 18px;
+    font-size: 50px;
+}
+#box6>.a{
+    height: 400px;
+    width: 70%; 
+}
+#box7>.a{
+    padding: 0 50px 0 50px;
+    line-height: 30px;
+}
+#box7>.a>button{
+    border: none;
+    background-color:white;
+    color: black;
+}
+
+#box8>.a{
+    padding: 40px 50px 40px 50px;
+    line-height: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: #fff9f9;
+    margin-top: 50px;
+}
+
+#box9>.a{
+    height: 50px;
+    width: 100%; 
+    background-color: rgb(66, 64, 64);
+    display: flex;
+    padding: 20px 50px 20px 50px;
+}
+#box9>.a>h5{
+    color: white;
+}
+#box9>.a>h5>span{
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size:large;
+}
+
+#box10>.a{
+    height: 120px;
+    width: 100%; 
+    background-color: rgb(20, 19, 19);
+    line-height: 50px;
+    padding: 20px 50px 20px 50px;
+}
+#box10>.a>p{
+    color: rgb(101, 96, 96);
+}
+#box11{
+    display: flex;
+     line-height: 30px;
+     color: white;
+     
+     border-top:solid 0.5px white;
+    
+}
+
+#box11>.a{
+    height: 400px;
+    width: 100%;
+    background-color:black;
+    align-items: center;
+   padding-top:  40px;
+   padding-left: 40px;
+}
+#box12{
+    display: flex;
+    justify-content:space-between;
+    
+    
+    
+}
+
+#box12>.aa{
+    height: 100px;
+    width: 100%; 
+    background-color: black; 
+   padding-left: 15px;
+   padding-top: 40px;
+}
+#box12>.aa>svg{
+    padding-top: 15px;
+    color: white;
+}
+
+#box12>.a>svg{
+    color: white;
+    /* background-color:rgb(43,43,43);; */
+    border: none;
+    margin-left: 10px;
+    fill: white;
+    
+}
+
+#box12>.a>button{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+#box12>.ab{
+    height: 100px;
+    width: 100%; 
+    background-color: black; 
+     padding-right: 60px; 
+    padding-top: 50px;
+    text-align: end;
+}
+#box12>.ab>i{
+    color: #fff9f9;
+   
+    margin-right: 20px;
+}
+#box13{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    border-top:solid 0.5px white;
+    
+    
+}
+
+#box13>.aa{
+    height: 100px;
+    width: 80%; 
+    font-size:x-small;
+    margin: 20px 20px 20px 20px;
+}
+#box13>.ab{
+     margin-top: 20px;
+
+    font-size: x-small;
+}
+#box13>.ab>span{
+    margin-right: 10px;
+}
+    
+#contact {
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+    padding: 3.5px;
+    background: linear-gradient(
+      166.66deg,
+      rgb(31, 117, 206) 4.62%,
+      rgb(23, 121, 207) 4.62%,
+      rgb(116, 75, 196) 86.29%
+    );
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 15px 0px;
+  }
+  #contact > button {
+    margin-left: 0.4px;
+    cursor: pointer;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+    background-color: white;
+  }
+  #contact > button > img {
+    margin-right: 10px;
+  }
+  
+
+
+
+
+
+
